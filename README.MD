@@ -8,8 +8,7 @@ Este proyecto configura y ejecuta un apiGateway utilizando SQL Server y Postgres
 ### 1. Clonar el proyecto
 
 ```bash
-git clone <URL-del-repositorio>
-cd <nombre-del-repositorio>
+git clone https://github.com/weizmanfabian/ApiGateway.git
 ```
 
 ### 1.1. Descargar y ejecutar la imagen de Docker para SQL Server
