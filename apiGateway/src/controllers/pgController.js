@@ -1,4 +1,4 @@
-const { create, deleteByKey, findAll, findByKey, update } = require('../DB/Postgres');
+const { create, deleteByKey, findAll, findByKey, update } = require('../DB/Postgres.js');
 const { error, success } = require('../red/response.js');
 
 // Funciones para operaciones CRUD por defecto

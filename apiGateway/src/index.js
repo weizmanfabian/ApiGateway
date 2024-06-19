@@ -8,8 +8,8 @@ app.use(cors());
 
 app.use(express.json()) //para recibir datos en el body en formato json
 
-app.use('/sqlserver', require('./api/routes'))
 app.use('/postgres', require('./api/pgRoutes'))
+app.use('/sqlserver', require('./api/routes'))
 
 app.set('port', config.app.port)
 
